@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="../../Desktop/prog/accpt/accpt.cbp" />
+		<Project filename="../../Desktop/prog/evven/evven.cbp" />
+		<Project filename="../../Desktop/prog/positive/positive.cbp" />
+		<Project filename="../../Desktop/prog/daay/daay.cbp" />
+		<Project filename="../../Desktop/prog/max/max.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
