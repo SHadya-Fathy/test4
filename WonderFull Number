@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+bool isOdd(int n) {
+    return n % 2 == 1;
+}
+bool isBinaryPalindrome(int n) {
+    int rev = 0, tmp = n;
+
+    while (tmp > 0) {
+        rev = (rev << 1) | (tmp & 1);
+        tmp >>= 1;
+    }
+
+    return rev == n;
+}
+
+int main() {
+    int N;
+    cin >> N;
+
+    if (isOdd(N) && isBinaryPalindrome(N)) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
+    }
+
+    return 0;
+}
